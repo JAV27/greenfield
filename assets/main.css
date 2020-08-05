@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-image: url('background.jpg');
+}
+
+.nav img {
+    height: 150px;
+}
+
+.nav {
+    display: flex;
+    margin-top: 50px;
+    border-top: 3px solid lightgreen;
+    border-bottom: 3px solid lightgreen;
+    background-color: rgba(0, 0, 0, .7);
+    color: white;
+    align-items: center;
+    padding: 0px 100px;
+    max-height: 80px;
+}
+
+.nav .tabs {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 24px;
+}
+
+.nav .tabs p a {
+    cursor: pointer;
+}
+
+.nav .tabs p a:hover {
+    text-decoration: underline;
+}
