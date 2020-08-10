@@ -1,6 +1,8 @@
 body {
     margin: 0;
     background-image: url('background.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .nav img {
@@ -32,4 +34,53 @@ body {
 
 .nav .tabs p a:hover {
     text-decoration: underline;
+}
+
+.container {
+    padding: 0 100px;
+}
+
+.content {
+    border: 3px solid lightgreen;
+    margin: auto;
+    margin-top: 100px;
+    background-color:rgba(0, 0, 0, .6);
+    padding: 75px 100px;
+}
+
+.content p {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.leagues {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.leagues div.league {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.league a {
+    color: white;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+div.league a:hover {
+    font-weight: bold;
+}
+
+.leagues img.league {
+    height: 150px;
 }
