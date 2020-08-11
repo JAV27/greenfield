@@ -30,6 +30,8 @@ body {
 
 .nav .tabs p a {
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
 
 .nav .tabs p a:hover {
@@ -37,7 +39,7 @@ body {
 }
 
 .container {
-    padding: 0 100px;
+    padding: 0 100px 100px 100px;
 }
 
 .content {
@@ -45,7 +47,7 @@ body {
     margin: auto;
     margin-top: 100px;
     background-color:rgba(0, 0, 0, .6);
-    padding: 75px 100px;
+    padding: 50px 100px;
 }
 
 .content p {
@@ -83,4 +85,36 @@ div.league a:hover {
 
 .leagues img.league {
     height: 150px;
+}
+
+/* ABOUT US */
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team .person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+.team .person img {
+    height: 100px;
+}
+
+.team .person p.name {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.team .person p.title {
+    font-size: 14px;
+    font-weight: lighter;
+    color: green;
+    margin-top: 0;
 }
