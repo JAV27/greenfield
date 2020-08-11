@@ -115,6 +115,7 @@ div.league a:hover {
     flex-direction: column;
     align-items: center;
     margin: 20px 40px;
+    min-width: 150px;
 }
 
 .team .person img {
