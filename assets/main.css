@@ -1,76 +1,55 @@
 body {
     margin: 0;
-    background-image: url('background.jpg');
-    background-position: center;
-    background-size: cover;
-}
-
-.nav img {
-    height: 150px;
 }
 
 .nav {
     display: flex;
-    margin-top: 50px;
-    border-top: 3px solid lightgreen;
-    border-bottom: 3px solid lightgreen;
-    background-color: rgba(0, 0, 0, .7);
-    color: white;
+    height: 20vh;
+    justify-content: space-around;
     align-items: center;
-    padding: 0px 100px;
-    max-height: 80px;
 }
 
-.nav .tabs {
+.nav .sub {
     display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    font-size: 24px;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+    min-width: 371px;
 }
 
-.nav .tabs p a {
+.nav img {
+    height: 50px;
+}
+
+.nav img.grass {
+    align-self: flex-end;
+}
+
+.nav .sub p {
+    margin: 0 40px;
     cursor: pointer;
-    color: white;
-    text-decoration: none;
+    color: green;
 }
 
-.nav .tabs p a:hover {
+.nav .sub p:hover {
     text-decoration: underline;
 }
 
-.container {
-    padding: 0 100px 100px 100px;
+.main {
+    background: linear-gradient(#88B04B, #006934);
+    height: 80vh;
+    padding: 50px;
 }
 
 .content {
-    border: 3px solid lightgreen;
-    margin: auto;
-    margin-top: 100px;
-    background-color:rgba(0, 0, 0, .6);
-    padding: 50px 100px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .content p {
     color: white;
     font-size: 24px;
-    text-align: center;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
 }
-
-@media only screen and (max-width: 700px) {
-    .container {
-        padding: 0 0 100px 0;
-    } 
-
-    .content {
-        padding: 50px 50px;
-    }
-
-    .content p {
-        font-size: 16px;
-    }
-} 
 
 .leagues {
     display: flex;
@@ -90,7 +69,6 @@ body {
 div.league a {
     color: white;
     margin-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
 }
 
@@ -101,6 +79,12 @@ div.league a:hover {
 .leagues img.league {
     height: 150px;
 }
+
+
+
+
+
+
 
 /* ABOUT US */
 
@@ -134,3 +118,4 @@ div.league a:hover {
     color: green;
     margin-top: 0;
 }
+
