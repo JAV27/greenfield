@@ -2,43 +2,52 @@ body {
     margin: 0;
 }
 
-.nav {
-    display: flex;
+/* NAVIGATION */
+
+nav.nav {
     height: 20vh;
-    justify-content: space-around;
-    align-items: center;
+    line-height: 20vh;
 }
 
-.nav .sub {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    justify-content: flex-end;
-    min-width: 371px;
-}
-
-.nav img {
-    height: 50px;
-}
-
-.nav img.grass {
-    align-self: flex-end;
-}
-
-.nav .sub p {
-    margin: 0 40px;
-    cursor: pointer;
+nav.nav a.sidenav-trigger i {
+    line-height: 20vh;
+    font-size: 24px;
     color: green;
 }
 
-.nav .sub p:hover {
-    text-decoration: underline;
+nav .nav-wrapper {
+    background-color: white;
+    padding: 0 100px;
 }
+
+nav ul {
+    color: green;
+}
+
+nav ul.right a, nav ul.left a {
+    color: green;
+}
+
+.right, .left {
+    min-width: 225px;
+}
+
+nav img {
+    height: 50px;
+}
+
+.grass {
+    height: 5vh;
+    margin-top: 15vh;
+}
+
+/* MAIN */
 
 .main {
     background: linear-gradient(#88B04B, #006934);
     height: 80vh;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 .content {
@@ -79,9 +88,6 @@ div.league a:hover {
 .leagues img.league {
     height: 150px;
 }
-
-
-
 
 
 

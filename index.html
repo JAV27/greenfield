@@ -5,21 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greenfield LLC</title>
     <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
-    <div class="nav">
-        <div class="left sub">
-            <p>Home</p>
-            <p>About</p>
-            <p>Partners</p>
+
+    <nav class="nav">
+        <div class="nav-wrapper">
+            <ul class="left hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Partners</a></li>
+            </ul>
+            <a href="#" class="brand-logo center"><img src="assets/greenfield.png"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa fa-bars"></i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+                <img src="assets/grass.png" alt="" class="grass">
+            </ul>
         </div>
-        <img src="assets/greenfield.png" class="logo">
-        <div class="right sub">
-            <p>News</p>
-            <p>Contact</p>
-            <img src="assets/grass.png" class="grass">
+    </nav>
+    
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+              
+    <!-- <nav>
+        <div class="nav-wrapper" bis_skin_checked="1">
+            <ul class="main center hide-on-small-only">
+                <div class="first" bis_skin_checked="1">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/leagues">Programs</a></li>
+                    <li><a href="/franchise">Franchise</a></li>
+                </div>
+                <a href="/" class="no-hover"><img class="logo" src="assets/logo.png"></a>
+                <div class="second" bis_skin_checked="1">
+                    <li><a href="/joinUs">Join Us</a></li>
+                    <li><a href="/aboutus">About Us</a></li>
+                    <li><a href="/news">News</a></li>
+                </div>
+            </ul>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger hide-on-med-and-up"><i class="material-icons">menu</i></a>
         </div>
-    </div>
+    </nav> -->
     <div class="main">
         <div class="content">
             <p>A Revolutionary Approach to League Management</p>
@@ -38,5 +71,14 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">  </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("sup");
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+    </script>
+
 </body>
 </html>
