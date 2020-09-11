@@ -20,6 +20,16 @@ nav .nav-wrapper {
     padding: 0 100px;
 }
 
+@media only screen and (max-width: 600px) {
+    nav .nav-wrapper {
+      padding: 0;
+    }
+
+    nav .brand-logo img {
+        height: 30px;
+    }
+}
+
 nav ul {
     color: green;
 }
@@ -45,7 +55,7 @@ nav img {
 
 .main {
     background: linear-gradient(#88B04B, #006934);
-    height: 80vh;
+    min-height: 80vh;
     padding: 50px;
     box-sizing: border-box;
 }
