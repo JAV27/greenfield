@@ -5,71 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greenfield LLC</title>
     <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
-    <div class="nav">
-        <div class="image">
-            <img src="assets/logo.png">
+
+    <nav class="nav">
+        <div class="nav-wrapper">
+            <ul class="left hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Partners</a></li>
+            </ul>
+            <a href="#" class="brand-logo center"><img src="assets/greenfield.png"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa fa-bars"></i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+                <img src="assets/grass.png" alt="" class="grass">
+            </ul>
         </div>
-        <div class="tabs">
-            <p><a href="index.html">Home</a></p>
-            <p><a href="about.html">About</a></p>
-            <p><a>Contact Us</a></p>
-            <p><a>Partners</a></p>
-            <p><a>News</a></p>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <div class="aboutus">
+        <div class="description">
+            <p class="title">About Us</p>
+            <p class="paragraph">The GDL will fill a significant gap in the current youth landscape. Utilizing a unique development focussed technology, the Grassroots Development League (GDL) administers a fun, organized, and inclusive soccer program that supplements the training opportunities that currently exist for U7/U8 players. Interspersing conditioned small sided games into a festival experience allows for connected learning related to targeted educational content, which is provided to the coaches as part of the program. </p>
         </div>
-    </div>
-    <div class="container">
-        <div class="content">
-            <p>Our Team</p>
-            <div class="team">
-                <div class="person">
-                    <img src="assets/Steve.png">
+        <div class="team">
+            <div class="heads row">
+                <p>Our Team</p>
+                <div class="head col s12 m4 l2 offset-l1">
+                    <img src="assets/Steve.png" alt="">
                     <p class="name">Steve Schechter</p>
                     <p class="title">Co-Founder</p>
                 </div>
-                <div class="person">
-                    <img src="assets/craigp.png">
+                <div class="head col s12 m4 l2">
+                    <img src="assets/craigp.png" alt="">
                     <p class="name">Craig Porter</p>
                     <p class="title">Co-Founder</p>
                 </div>
-                <div class="person">
-                    <img src="assets/JC.png">
+                <div class="head col s12 m4 l2">
+                    <img src="assets/JC.png" alt="">
                     <p class="name">Justin Capell</p>
                     <p class="title">Co-Founder</p>
                 </div>
-                <div class="person">
-                    <img src="assets/steveprince.png">
+                <div class="head col s12 m4 l2">
+                    <img src="assets/steveprince.png" alt="">
                     <p class="name">Steve Prince</p>
                     <p class="title">Co-Founder</p>
                 </div>
-                <div class="person">
-                    <img src="assets/pedro.png">
+                <div class="head col s12 m4 l2">
+                    <img src="assets/pedro.png" alt="">
                     <p class="name">Pedro Herivaux</p>
                     <p class="title">Co-Founder</p>
                 </div>
-                <div class="person">
-                    <img src="assets/joe-cummings.png">
+            </div>
+            <div class="heads row">
+                <div class="head col s12 m4 l2 offset-l2">
+                    <img src="assets/joe-cummings.png" alt="">
                     <p class="name">Joe Cummings</p>
                     <p class="title">Advisor</p>
                 </div>
-                <div class="person">
-                    <img src="assets/hamblin1.png">
+                <div class="head col s12 m4 l2">
+                    <img src="assets/hamblin1.png" alt="">
                     <p class="name">James Hamblin</p>
                     <p class="title">Business Development</p>
                 </div>
-                <div class="person">
-                    <img src="assets/PAUL-BABER.png">
-                    <p class="name">Paul Braber</p>
+                <div class="head col s12 m4 l2">
+                    <img src="assets/PAUL-BABER.png" alt="">
+                    <p class="name">Paul Baber</p>
                     <p class="title">Business Development</p>
                 </div>
-                <div class="person">
-                    <img src="assets/spalding.png">
+                <div class="head col s12 m4 l2">
+                    <img src="assets/spalding.png" alt="">
                     <p class="name">Mark Spalding</p>
                     <p class="title">Technical Advisor</p>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">  </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("sup");
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+    </script>
+
 </body>
 </html>
