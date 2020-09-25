@@ -170,11 +170,71 @@ div.league a:hover {
     width: 100%;
 }
 
+.aboutus .team .heads.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .aboutus .team .heads.mobile {
+        display: block;
+    }    
+
+    .aboutus .team .heads {
+        display: none;
+    }
+}
+
 .aboutus .heads .head {
     margin-top: 50px;
+}
+
+.aboutus .heads .head p {
+    margin: 0;
+}
+
+.aboutus .heads .head p.title {
+    font-size: 14px;
+    color: #88B04B;
+}
+
+.aboutus .heads .head p.name {
+    color: #4F4F4F;
 }
 
 .aboutus .heads .head img {
     height: 100px;
     width: 100px;
+}
+
+.aboutus .team p.header {
+    font-size: 24px;
+    font-weight: bold;
+    color:#88B04B;
+}
+
+/* FOOTER */
+.footer {
+    background-color: rgba(125,180,108,0.9);
+    min-height: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer .row .col img {
+    height: 70px;
+    width: 70px;
+}
+
+.footer .row {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.footer .row .col {
+    margin-top: 25px;
+}
+
+.footer p {
+    color: white;
+    font-size: 22px;
 }
