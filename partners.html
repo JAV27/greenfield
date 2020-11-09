@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenfield LLC</title>
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-wrapper">
+            <ul class="left hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="partners.html">Partners</a></li>
+            </ul>
+            <a href="#" class="brand-logo center"><img src="assets/greenfield.png"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa fa-bars"></i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+                <img src="assets/grass.png" alt="" class="grass">
+            </ul>
+        </div>
+    </nav>
+    
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+              
+
+    <div class="partners">
+        <div class="description">
+            <p class="title">Partner</p>
+            <p class="paragraph">Don't see your state logo? Let us know you are interested in stating, or registering for, a league near you. Thanks and we look forward to seeing you back out on a field!</p>
+        </div>
+        <div class="companies">
+            <div class="row">
+                <div class="col s12 m6">
+                    <img src="assets/tapin.png">
+                    <p class="title">TapIn Mobile Solutions</p>
+                </div>
+                <div class="col s12 m6">
+                    <img src="assets/palla.png">
+                    <p class="title">Palla Sportswear</p>
+                </div>
+            </div>
+            <div class="tapin">
+                <p class="title">TapIn Mobile Solutions</p>
+                <p>The GDL has partnered with TapIn Mobile Solutions to run its events based programs on the world's premier sports technology platform. The TapIn platform runs on all mobile devices using IOS and Android systems. Through this partnership, TMS has customized its solutions to enable GDL programs to deliver FUN, targeted development focused content and functionality incliuding: </p>
+                <img src="assets/tapin.png">
+            </div>
+        </div>
+        <div class="technology">
+            <div class="outergrey grey lighten-3">
+                <div class="container">
+                    <div class="row phone">
+                        <div class="phoneImage col s12 m6">
+                            <img class="phone1" src="assets/Group1.png">
+                        </div>
+                        <ul class="col s12 m6">
+                            <li>
+                                <div class="dot hide-on-small-only"></div>
+                                Curriculum & Coach licensing 
+                                <br>
+                                <span class="grey-text text-darken-1">Age and development appropriate</span>
+                            </li>
+                            <li>
+                                <div class="dot hide-on-small-only"></div>
+                                Full communication & scheduling tools
+                                <br>
+                                <span class="grey-text text-darken-1">Keep coaches and players updated in real time</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="outergrey">
+                <div class="container">
+                    <div class="row phone">
+                        <ul class="col s12 m6">
+                            <li>
+                                <div class="dot hide-on-small-only"></div>
+                                Ongoing data driven assesments 
+                                <br>
+                                <span class="grey-text text-darken-1">of coach and referee performance</span>
+                            </li>
+                            <li>
+                                <div class="dot hide-on-small-only"></div>
+                                Real time feedback from coaches
+                                <br>
+                                <span class="grey-text text-darken-1">every player, every single match</span>
+        
+                            </li>
+                        </ul>
+                        <div class="phoneImage2 col s12 m6">
+                            <img class="phone2" src="assets/Group1.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Follow Us</p>
+        <div class="row">
+            <div class="col s12 m6 l3">
+                <a href=""><img src="assets/email.png" alt=""></a>
+            </div>
+            <div class="col s12 m6 l3">
+                <a href=""><img src="assets/facebook.png" alt=""></a>
+            </div>
+            <div class="col s12 m6 l3">
+                <a href=""><img src="assets/twitter.png" alt=""></a>
+            </div>
+            <div class="col s12 m6 l3">
+                <a href=""><img src="assets/instagram.png" alt=""></a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">  </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("sup");
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+    </script>
+
+</body>
+</html>
