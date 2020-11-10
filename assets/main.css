@@ -416,9 +416,7 @@ div.league a:hover {
 }
 
 
-
-
-
+/* NEWS */
 
 .story .header .top .league {
     padding: 5px 10px;
@@ -491,4 +489,22 @@ div.league a:hover {
     line-height: 1.5rem;
     letter-spacing: .4;
     display: inline-block;
+}
+
+/* CONTACT */
+
+.joinUsInfo h3 {
+    color: black;
+} 
+
+.contactForm p {
+    color: black;
+}
+
+label [type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+    background-color: rgba(125,180,108,0.9);
+}
+
+label [type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+    border: 2px solid rgba(125,180,108,0.9);
 }
