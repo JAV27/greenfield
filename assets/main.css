@@ -415,3 +415,80 @@ div.league a:hover {
     font-size: 22px;
 }
 
+
+
+
+
+
+.story .header .top .league {
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.story .header .top .leagueSmall {
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    display: none;
+}
+
+.story .header .top {
+    text-align: center;
+}
+
+.story .header .top .title {
+    text-align: center;
+    margin: 0;
+}
+
+.MA {
+    background-color: green;
+}
+
+.NH {
+    background-color: pink;
+}
+
+.story .header .top {
+    border-bottom: 2px solid grey;
+    padding: 20px 0;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+.story img {
+    width: 100%;
+    align-self: center;
+}
+
+.story > * {
+    margin-bottom: 50px;
+}
+
+.table-of-contents {
+    right: 50px;
+}
+
+.table-of-contents a.active {
+    font-weight: 500;
+    padding-left: 14px;
+    border-left: 2px solid #ee6e73;
+}
+
+.table-of-contents a {
+    display: inline-block;
+    font-weight: 300;
+    color: #757575;
+    padding-left: 16px;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: .4;
+    display: inline-block;
+}
