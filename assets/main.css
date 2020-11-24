@@ -256,6 +256,21 @@ div.league a:hover {
     height: 150px;
 }
 
+.wrap {
+    width: 100%;
+    text-align: center;
+}
+
+.tapinImg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    .companies img {
+        height: 100px;
+    }   
+}
 .companies .col {
     text-align: center;
 }
