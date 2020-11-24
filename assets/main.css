@@ -251,6 +251,16 @@ div.league a:hover {
     margin-top: 100px;
 }
 
+@media only screen and (max-width: 600px) {
+    .technology .phone { 
+        text-align: center;
+    } 
+
+    .technology .phoneImage, .technology .phoneImage2 {
+        text-align: center;
+    }
+}
+
 /* COMPANIES */
 .companies img {
     height: 150px;
