@@ -408,6 +408,12 @@ div.league a:hover {
     padding: 50px 0;
 }
 
+@media only screen and (max-width: 800px) {
+    .palla {
+        width: 90%;
+    }
+}
+
 .palla p.title {
     color: green;
     font-weight: bold;
@@ -514,6 +520,17 @@ div.league a:hover {
     line-height: 1.5rem;
     letter-spacing: .4;
     display: inline-block;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .story .header .top .league {
+        display: none;
+    }
+
+    .story .header .top .leagueSmall {
+        display: block;
+    }
 }
 
 /* CONTACT */
