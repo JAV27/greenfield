@@ -17,6 +17,10 @@ nav.nav a.sidenav-trigger i {
     color: green;
 }
 
+ul.sidenav li a {
+    color: green;
+}
+
 nav .nav-wrapper {
     background-color: white;
     padding: 0 100px;
