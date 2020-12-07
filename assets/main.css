@@ -537,6 +537,19 @@ div.league a:hover {
     }
 }
 
+div.moreContent {
+    display: none;
+}
+
+.story .row.button {
+    display: flex;
+    justify-content: center;
+}
+
+.story .row.button .readLess {
+    display: none;
+}
+
 /* CONTACT */
 
 .joinUsInfo h3 {
